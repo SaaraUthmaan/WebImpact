@@ -1,0 +1,31 @@
+body {
+    background-image: url("dragon.png");
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: rgb(155, 48, 98);
+    border: 15px solid green;
+}
+ul{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+header{
+    background-color: rgb(201, 71, 71);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;/*top-bottom and then left-rigth*/
+}
+.nav{
+    list-style-type:none;    
+}
+.nav li{
+    display: inline-block;
+    padding: 2px 15px;
+}
+
+.nav li a:hover{
+    color: rgb(227, 26, 194);
+}
